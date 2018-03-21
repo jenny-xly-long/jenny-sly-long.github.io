@@ -1,0 +1,526 @@
+.App {
+  text-align: center;
+}
+
+.heading{
+  width: 100%;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: hidden;
+  text-align: center;
+  color:black;
+  /* height: vh; */
+  background-color: rgb(231, 221, 206);
+  z-index: 500;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+strong {
+  font-family: "Adobe Garamond Pro", serif;
+  font-size: 45px;
+  padding: 0 16px;
+  color:orange;
+}
+
+ht {
+  font-family: "Adobe Garamond Pro", serif;
+  font-size: 45px;
+  padding: 0 16px;
+}
+
+h1 {
+  font-family: "Georgia", serif;
+  font-weight: 100;
+  font-size: 90px;
+  color: white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 10px;
+  font-family: "Georgia", serif;
+  font-weight: 100;
+  color:black;
+}
+h3 {
+font-size: 30px;
+  line-height: 10px;
+  font-family: "Times", serif;
+  color: white;
+}
+h4 {
+  font-size: 30px;
+    line-height: 10px;
+    font-family: "Times", serif;
+    color: black;
+  }
+
+p {
+  font-family: "Times", serif;
+  color:white;
+  font-size: 15px;
+  
+}
+
+pp {
+  font-family: "Times", serif;
+  color:black;
+  font-size: 15px;
+  
+}
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  padding-top: 9px;
+}
+
+.name {
+  width: 375px;
+  height: 208px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.NavBar {
+  position: fixed;
+  list-style-type: none;
+  background: url(https://media.giphy.com/media/qySjscRkCmJVe/giphy.gif) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: white;
+  z-index: 500;
+}
+.scroll {
+  background-color: rgb(49, 48, 48);
+  transition: background-color 0.4s ease-out
+}
+
+.nav-item {
+  font-family: "Times", serif;
+  font-size: 20px;
+  font-weight: 300;
+  float:right;
+  padding-right: 120px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav-last {
+  margin-right: 60px;
+}
+
+.nav-name {
+  font-family: "Georgia", serif;
+  font-weight: 100;
+  font-size: 36px;
+  display: block;
+  margin-left: 60px;
+  color: black;
+  text-align: center;
+  padding: 7px 8px;
+  text-decoration: none;
+  float: left;
+}
+
+.nav-link {
+  display: block;
+  color: rgba(255, 255, 255, 0.918);
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.nav-link:hover:not(.active) {
+  background-color:white;
+  color: orange;
+}
+
+.nav-linkk:hover:not(.active) {
+  background-color:orange;
+  color: orange;
+}
+
+.nav-link.active {
+  color: white;
+  background-color: #4CAF50;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.HomePage {
+  background: url(https://media.giphy.com/media/qySjscRkCmJVe/giphy.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* height: 100%; */
+  display: flex;
+  height: 110vh;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top:75px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.homepage-intro {
+  font-family: "Georgia", serif;
+  font-weight: 100;
+}
+
+.AboutPage {
+  background: url(https://media.giphy.com/media/xT4uQF7h39mlsF5czK/giphy.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* height: 100%; */
+  display: flex;
+  height: 100vh;
+  padding-left: 75px;
+  padding-right: 75px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+.about-column{
+    float: left;
+    width: 50%;
+    height: 80vh;
+    background: rgb(14, 0, 0) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  }
+
+.about-intro {
+  font-family: "Times", serif;
+  color: black;
+  font-size: 32px;
+  padding: 0 16px;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+.about-item {
+  font-family: "Georgia", serif;
+  font-size: 20px;
+  color: white;
+  padding: 0 16px;
+}
+
+.ProductPage {
+  background: rgb(14, 0, 0) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* height: 100%; */
+  display: flex;
+  height: 90vh;
+  padding-left: 75px;
+  padding-right: 75px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.TeamPage {
+  background: url(https://media.giphy.com/media/xT4uQF7h39mlsF5czK/giphy.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* height: 100%; */
+  display: flex;
+  height: 80vh;
+  padding-left: 75px;
+  padding-right: 75px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+.item {
+  position: relative;
+  width: 40%;
+  margin: 10px;
+}
+
+.thumb {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: white;
+  opacity: .9;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.item:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.blog-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #bafffc;
+  border-radius: 5px;
+}
+
+.item:hover .blog-overlay {
+  height: 100%;
+  opacity: 1;
+}
+
+.item:hover .thumb {
+  width: 100%;
+  height: auto;
+}
+.HomePage .i-hov {
+  color: black;
+  margin: 10px;
+  display: inline-block;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.HomePage .i-hov:hover {
+  color: #00f2e7;
+  display: inline-block;
+}
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 32%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  
+}
+.column2 {
+  float: left;
+  width: 49%;
+  margin-bottom: 16px;
+  padding: 0 3px;
+
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 10%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+.Contact {
+    background: white;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    /* height: 100%; */
+    /* display: flex; */
+    padding-top:10vh;
+    height: 40vh;
+    padding-left: 75px;
+    padding-right: 75px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+.name{
+    width: 20%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 3px solid #ccc; /* Gray border */
+    border-radius: 4px; /*Rounded borders
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+.email{
+  width: 20%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 3px solid #ccc; /* Gray border */
+  border-radius: 4px; /*Rounded borders
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+.field{
+  width: 30%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 3px solid #ccc; /* Gray border */
+  border-radius: 4px; /*Rounded borders
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.send{
+  background-color:#d18f63;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Footer div {
+  text-align: center;
+}
+
+.Footer img {
+  padding: 15px 0px;
+  width: 100%
+}
+
+.Footer a {
+  text-decoration: none;
+  color: black;
+  line-height: 10px;
+  font-size: 18px;
+}
+
+.Footer h3 {
+  font-size: 30px;
+  line-height: 10px;
+}
+.Footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #231f20;
+  /* background: -webkit-linear-gradient(to right, #d18f63, #ebbea0);
+  background: linear-gradient(to right, #d18f63, #ebbea0); */
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+.fa-envelope {
+  color: #d18f63;
+}
+.fa-twitter {
+  color: #55ACEE;
+}
+
+.profile {
+  width: 60px;
+	height: 60px;
+	border-radius: 100%;
+}
+
+.team-column{
+  float: right;
+  width: 50%;
+  height: 80vh;
+  background: rgb(14, 0, 0) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
